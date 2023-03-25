@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390C30FC29CE89B60037C50D /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C30FB29CE89B60037C50D /* DateFormatter+Extensions.swift */; };
+		391F2AB929CD309700B1055F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391F2AB829CD309700B1055F /* SignupViewController.swift */; };
 		3922361529CCC57C00E45389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922361429CCC57C00E45389 /* AppDelegate.swift */; };
 		3922361729CCC57C00E45389 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922361629CCC57C00E45389 /* SceneDelegate.swift */; };
-		3922361929CCC57C00E45389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922361829CCC57C00E45389 /* ViewController.swift */; };
+		3922361929CCC57C00E45389 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922361829CCC57C00E45389 /* LoginViewController.swift */; };
 		3922361C29CCC57C00E45389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3922361A29CCC57C00E45389 /* Main.storyboard */; };
 		3922361E29CCC57D00E45389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3922361D29CCC57D00E45389 /* Assets.xcassets */; };
 		3922362129CCC57D00E45389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3922361F29CCC57D00E45389 /* LaunchScreen.storyboard */; };
+		396CB36429CD245300627554 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396CB36329CD245300627554 /* User.swift */; };
+		3991657229CE6DC2005EC6B7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991657129CE6DC2005EC6B7 /* Post.swift */; };
+		3991657529CE7683005EC6B7 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991657429CE7683005EC6B7 /* FeedViewController.swift */; };
+		3991657729CE769B005EC6B7 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991657629CE769B005EC6B7 /* PostCell.swift */; };
+		80534D3691F5BD984BF33E00 /* Pods_bereal_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65C425E8D7F61491436CAE5 /* Pods_bereal_clone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		390C30FB29CE89B60037C50D /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		391F2AB829CD309700B1055F /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		3922361129CCC57C00E45389 /* bereal-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bereal-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3922361429CCC57C00E45389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3922361629CCC57C00E45389 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3922361829CCC57C00E45389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3922361829CCC57C00E45389 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3922361B29CCC57C00E45389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3922361D29CCC57D00E45389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3922362029CCC57D00E45389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3922362229CCC57D00E45389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396CB36329CD245300627554 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3991657129CE6DC2005EC6B7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3991657429CE7683005EC6B7 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		3991657629CE769B005EC6B7 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		48FE3CFE0A21D076D42560CA /* Pods-bereal-clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bereal-clone.debug.xcconfig"; path = "Target Support Files/Pods-bereal-clone/Pods-bereal-clone.debug.xcconfig"; sourceTree = "<group>"; };
+		7D4B4E5803C95151999059CD /* Pods-bereal-clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bereal-clone.release.xcconfig"; path = "Target Support Files/Pods-bereal-clone/Pods-bereal-clone.release.xcconfig"; sourceTree = "<group>"; };
+		D65C425E8D7F61491436CAE5 /* Pods_bereal_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bereal_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80534D3691F5BD984BF33E00 /* Pods_bereal_clone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0363377F1EF5130F72954B2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48FE3CFE0A21D076D42560CA /* Pods-bereal-clone.debug.xcconfig */,
+				7D4B4E5803C95151999059CD /* Pods-bereal-clone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		390C30FA29CE89980037C50D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				390C30FB29CE89B60037C50D /* DateFormatter+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		391F2AB429CD2E2E00B1055F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3922361829CCC57C00E45389 /* LoginViewController.swift */,
+				391F2AB829CD309700B1055F /* SignupViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		3922360829CCC57C00E45389 = {
 			isa = PBXGroup;
 			children = (
 				3922361329CCC57C00E45389 /* bereal-clone */,
 				3922361229CCC57C00E45389 /* Products */,
+				0363377F1EF5130F72954B2A /* Pods */,
+				67BDA3568DD32F0DA5908EAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,44 @@
 		3922361329CCC57C00E45389 /* bereal-clone */ = {
 			isa = PBXGroup;
 			children = (
+				390C30FA29CE89980037C50D /* Extensions */,
+				396CB35F29CD059500627554 /* Models */,
+				391F2AB429CD2E2E00B1055F /* Login */,
+				3991657329CE7645005EC6B7 /* Feed */,
 				3922361429CCC57C00E45389 /* AppDelegate.swift */,
 				3922361629CCC57C00E45389 /* SceneDelegate.swift */,
-				3922361829CCC57C00E45389 /* ViewController.swift */,
 				3922361A29CCC57C00E45389 /* Main.storyboard */,
 				3922361D29CCC57D00E45389 /* Assets.xcassets */,
 				3922361F29CCC57D00E45389 /* LaunchScreen.storyboard */,
 				3922362229CCC57D00E45389 /* Info.plist */,
 			);
 			path = "bereal-clone";
+			sourceTree = "<group>";
+		};
+		396CB35F29CD059500627554 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				396CB36329CD245300627554 /* User.swift */,
+				3991657129CE6DC2005EC6B7 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3991657329CE7645005EC6B7 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				3991657429CE7683005EC6B7 /* FeedViewController.swift */,
+				3991657629CE769B005EC6B7 /* PostCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		67BDA3568DD32F0DA5908EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D65C425E8D7F61491436CAE5 /* Pods_bereal_clone.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3922362529CCC57D00E45389 /* Build configuration list for PBXNativeTarget "bereal-clone" */;
 			buildPhases = (
+				54B9FB6FD3D56628BDE677C7 /* [CP] Check Pods Manifest.lock */,
 				3922360D29CCC57C00E45389 /* Sources */,
 				3922360E29CCC57C00E45389 /* Frameworks */,
 				3922360F29CCC57C00E45389 /* Resources */,
+				C26E70BFAE029177C4CCCA94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +209,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54B9FB6FD3D56628BDE677C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bereal-clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C26E70BFAE029177C4CCCA94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bereal-clone/Pods-bereal-clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bereal-clone/Pods-bereal-clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bereal-clone/Pods-bereal-clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3922360D29CCC57C00E45389 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3922361929CCC57C00E45389 /* ViewController.swift in Sources */,
+				3922361929CCC57C00E45389 /* LoginViewController.swift in Sources */,
+				3991657229CE6DC2005EC6B7 /* Post.swift in Sources */,
 				3922361529CCC57C00E45389 /* AppDelegate.swift in Sources */,
+				391F2AB929CD309700B1055F /* SignupViewController.swift in Sources */,
+				396CB36429CD245300627554 /* User.swift in Sources */,
 				3922361729CCC57C00E45389 /* SceneDelegate.swift in Sources */,
+				3991657529CE7683005EC6B7 /* FeedViewController.swift in Sources */,
+				3991657729CE769B005EC6B7 /* PostCell.swift in Sources */,
+				390C30FC29CE89B60037C50D /* DateFormatter+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +406,7 @@
 		};
 		3922362629CCC57D00E45389 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FE3CFE0A21D076D42560CA /* Pods-bereal-clone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +435,7 @@
 		};
 		3922362729CCC57D00E45389 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4B4E5803C95151999059CD /* Pods-bereal-clone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
