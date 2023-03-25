@@ -55,6 +55,10 @@ class FeedViewController: UIViewController {
         }
     }
         
+    @IBAction func onLogOutTapped(_ sender: Any) {
+       showConfirmLogoutAlert()
+    }
+    
     private func showConfirmLogoutAlert() {
         let alertController = UIAlertController(title: "Log out of your account?", message: nil, preferredStyle: .alert)
         let logOutAction = UIAlertAction(title: "Log out", style: .destructive) { _ in

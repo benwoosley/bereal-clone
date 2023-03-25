@@ -145,7 +145,7 @@
         <!--Navigation Controller-->
         <scene sceneID="XjC-O6-pNn">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uh9-9w-W9V" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="uh9-9w-W9V" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="j49-iU-iOh">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -302,6 +302,9 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Logout" id="8P8-4L-LkK">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="onLogOutTapped:" destination="bmd-fT-lYP" id="MDh-eF-1tH"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
