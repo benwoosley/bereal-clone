@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		390C30FC29CE89B60037C50D /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C30FB29CE89B60037C50D /* DateFormatter+Extensions.swift */; };
+		390C30FF29CFDA6A0037C50D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C30FE29CFDA6A0037C50D /* PostViewController.swift */; };
 		391F2AB929CD309700B1055F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391F2AB829CD309700B1055F /* SignupViewController.swift */; };
 		3922361529CCC57C00E45389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922361429CCC57C00E45389 /* AppDelegate.swift */; };
 		3922361729CCC57C00E45389 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922361629CCC57C00E45389 /* SceneDelegate.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		390C30FB29CE89B60037C50D /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		390C30FE29CFDA6A0037C50D /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		391F2AB829CD309700B1055F /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		3922361129CCC57C00E45389 /* bereal-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bereal-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3922361429CCC57C00E45389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		390C30FD29CFDA530037C50D /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				390C30FE29CFDA6A0037C50D /* PostViewController.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
 		391F2AB429CD2E2E00B1055F /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		3922361329CCC57C00E45389 /* bereal-clone */ = {
 			isa = PBXGroup;
 			children = (
+				390C30FD29CFDA530037C50D /* Post */,
 				390C30FA29CE89980037C50D /* Extensions */,
 				396CB35F29CD059500627554 /* Models */,
 				391F2AB429CD2E2E00B1055F /* Login */,
@@ -260,6 +271,7 @@
 				3991657229CE6DC2005EC6B7 /* Post.swift in Sources */,
 				3922361529CCC57C00E45389 /* AppDelegate.swift in Sources */,
 				391F2AB929CD309700B1055F /* SignupViewController.swift in Sources */,
+				390C30FF29CFDA6A0037C50D /* PostViewController.swift in Sources */,
 				396CB36429CD245300627554 /* User.swift in Sources */,
 				3922361729CCC57C00E45389 /* SceneDelegate.swift in Sources */,
 				3991657529CE7683005EC6B7 /* FeedViewController.swift in Sources */,
