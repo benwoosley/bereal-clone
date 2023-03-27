@@ -5,6 +5,9 @@
       location = "group:README.md">
    </FileRef>
    <FileRef
+      location = "group:../../../Desktop/demo.gif">
+   </FileRef>
+   <FileRef
       location = "group:bereal-clone.xcodeproj">
    </FileRef>
    <FileRef
