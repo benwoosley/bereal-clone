@@ -60,6 +60,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="bDc-TQ-M9J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="5b1-wb-evC"/>
                             <constraint firstItem="bDc-TQ-M9J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DLI-QF-zxL"/>
@@ -123,6 +124,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EZ2-3s-8om"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="EZ2-3s-8om" firstAttribute="trailing" secondItem="xSm-J8-RB6" secondAttribute="trailing" constant="64" id="0Df-qb-Pvd"/>
                             <constraint firstItem="xSm-J8-RB6" firstAttribute="centerY" secondItem="dWC-uk-Qi8" secondAttribute="centerY" id="JZl-dP-mT9"/>
