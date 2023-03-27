@@ -47,6 +47,7 @@ class PostViewController: UIViewController {
     @IBAction func onPostTapped(_ sender: Any) {
         // Dismiss Keyboard
         view.endEditing(true)
+        
 
         // Unwrap optional pickedImage
         guard let image = pickedImage,
@@ -133,12 +134,6 @@ extension PostViewController: PHPickerViewControllerDelegate {
                  self?.pickedImage = image
               }
            }
-        }
-    }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "MySegueIdentifier" {
-            title = "My Title"
-            // Or any other setup that you need to perform
         }
     }
 }

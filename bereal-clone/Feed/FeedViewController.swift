@@ -56,7 +56,6 @@ class FeedViewController: UIViewController {
         performSegue(withIdentifier: "PostSegue", sender: nil)
     }
     
-
     private func queryPosts() {
         // https://github.com/parse-community/Parse-Swift/blob/3d4bb13acd7496a49b259e541928ad493219d363/ParseSwift.playground/Pages/2%20-%20Finding%20Objects.xcplaygroundpage/Contents.swift#L66
         
@@ -66,6 +65,7 @@ class FeedViewController: UIViewController {
         let query = Post.query()
             .include("user")
             .order([.descending("createdAt")])
+            .limit(10)
         
         // Fetch objects (posts) defined in query (async)
         query.find { [weak self] result in

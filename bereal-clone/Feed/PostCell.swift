@@ -8,6 +8,7 @@
 import UIKit
 import Alamofire
 import AlamofireImage
+import UIImageView_Letters
 
 class PostCell: UITableViewCell {
 
@@ -21,12 +22,17 @@ class PostCell: UITableViewCell {
 
     @IBOutlet weak var dateLabel: UILabel!
     
+    @IBOutlet weak var profileImageView: UIImageView!
+    
+    @IBOutlet weak var locationLabel: UILabel!
+    
     func configure(with post: Post) {
-        // Username
+        // Username and profile image
         if let user = post.user {
             usernameLabel.text = user.username
+            profileImageView.setImageWith(user.username, color: UIColor.gray, circular: true)
         }
-
+        
         // Image
         if let imageFile = post.imageFile,
            let imageUrl = imageFile.url {
