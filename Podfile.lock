@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (5.6.4)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - ParseSwift (4.14.2)
+  - UIImageView-Letters (1.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - ParseSwift
+  - UIImageView-Letters
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - ParseSwift
+    - UIImageView-Letters
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  ParseSwift: 5df70e3d5aed3351fb3188ddf0a2812b7983a379
+  UIImageView-Letters: f62db28076797adf3560ab7410647dc6899b9eef
+
+PODFILE CHECKSUM: 770dfd607cd69cfaefb006d67c2ce636b5f18bc4
+
+COCOAPODS: 1.12.0

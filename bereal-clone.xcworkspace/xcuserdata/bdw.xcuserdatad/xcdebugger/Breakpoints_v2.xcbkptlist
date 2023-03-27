@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "799118E1-A411-4661-80D8-5FD4D7B35387"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C779DAE-8060-4159-832D-973AAF5E5597"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bereal-clone/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AB92D7B-9C08-4ABF-87BC-347F1D840D5A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bereal-clone/Feed/PostCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "PostCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4AB92D7B-9C08-4ABF-87BC-347F1D840D5A - 6d5eac9cae09487"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bereal_clone.PostCell.profileImageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "bereal-clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdw/Workspace/IOS/bereal-clone/bereal-clone/Feed/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "4AB92D7B-9C08-4ABF-87BC-347F1D840D5A - f314dea57da478b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bereal_clone.PostCell.profileImageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "bereal-clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdw/Workspace/IOS/bereal-clone/bereal-clone/Feed/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "4AB92D7B-9C08-4ABF-87BC-347F1D840D5A - ad72dda1835eb382"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bereal_clone.PostCell.profileImageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "bereal-clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdw/Workspace/IOS/bereal-clone/bereal-clone/Feed/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4AB92D7B-9C08-4ABF-87BC-347F1D840D5A - 6e0ad8a0431b6671"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bereal_clone.PostCell.profileImageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "bereal-clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdw/Workspace/IOS/bereal-clone/bereal-clone/Feed/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "4AB92D7B-9C08-4ABF-87BC-347F1D840D5A - ea8d9405e647ec82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bereal_clone.PostCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; bereal_clone.PostCell"
+                  moduleName = "bereal-clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdw/Workspace/IOS/bereal-clone/bereal-clone/Feed/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "4AB92D7B-9C08-4ABF-87BC-347F1D840D5A - e7fff841b40a66a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bereal_clone.PostCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;bereal_clone.PostCell&gt;"
+                  moduleName = "bereal-clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdw/Workspace/IOS/bereal-clone/bereal-clone/Feed/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
