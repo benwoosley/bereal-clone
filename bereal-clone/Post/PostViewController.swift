@@ -135,5 +135,11 @@ extension PostViewController: PHPickerViewControllerDelegate {
            }
         }
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "MySegueIdentifier" {
+            title = "My Title"
+            // Or any other setup that you need to perform
+        }
+    }
 }
 

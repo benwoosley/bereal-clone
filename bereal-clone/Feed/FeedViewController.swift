@@ -26,12 +26,36 @@ class FeedViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.allowsSelection = false
+        
+        // Create a button and set its title
+        let button = UIButton(type: .system)
+        button.setTitle("Post a photo", for: .normal)
+        button.addTarget(self, action: #selector(myButtonTapped(_:)), for: .touchUpInside)
+    
+        view.addSubview(button)
+        
+        // Add the button to the table view's header view
+        tableView.tableHeaderView = button
+        
+        // Set the height of the header view
+        tableView.tableHeaderView?.frame.size.height = 50
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         queryPosts()
     }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+    }
+    
+    @IBAction func myButtonTapped(_ sender: UIButton) {
+        // Handle button tap
+        performSegue(withIdentifier: "PostSegue", sender: nil)
+    }
+    
 
     private func queryPosts() {
         // https://github.com/parse-community/Parse-Swift/blob/3d4bb13acd7496a49b259e541928ad493219d363/ParseSwift.playground/Pages/2%20-%20Finding%20Objects.xcplaygroundpage/Contents.swift#L66
@@ -88,6 +112,7 @@ extension FeedViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         cell.configure(with: posts[indexPath.row])
+        tableView.deselectRow(at: indexPath, animated: true) // NOT SURE THIS IS NEEDED
         return cell
     }
 }
