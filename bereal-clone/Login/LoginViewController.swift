@@ -33,6 +33,16 @@ class LoginViewController: UIViewController {
             case .success(let user):
                 print("✅ Successfully logged in as user: \(user)")
 
+                // setup notifications
+                let center = UNUserNotificationCenter.current()
+                
+                center.requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
+                    
+                    if let error = error {
+                        // Handle the error here.
+                    }
+                }
+                
                 // Post a notification that the user has successfully logged in.
                 NotificationCenter.default.post(name: Notification.Name("login"), object: nil)
 

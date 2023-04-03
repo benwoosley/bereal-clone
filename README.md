@@ -1,28 +1,25 @@
-# Project 5 - *BeReal Clone*
+# Project 6 - *BeReal Clone*
 
 Submitted by: **Benjamin Woosley**
 
-**BeReal Clone** is an app that allows users to login browse and post images .
+**BeReal Clone** is an app that introduces ... [TODO]
 
-Time spent: **8** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] User can register a new account
-- [x] User can log in with newly created account
-- [x] App has a feed of posts when user logs in
-- [x] User can upload a new post which takes in a picture from photo library and a caption    
+- [x] User can launch camera to take photo instead of photo library
+- [x] User session persists when application is closed and relaunched
+- [x] Users are able to log out and return to sign in page
+- [x] Users are NOT able to see other photos until they upload their own    
  
 The following **optional** features are implemented:
 
-- [ ] Users can pull to refresh their feed and see a loading indicator
-- [ ] Users can infinite-scroll in their feed to see past the 10 most recent photos
-- [ ] Users can see location and time of photo upload in the feed    
-- [x] User is able to logout
-- [x] User stays logged in when app is closed and open again    
-
+- [x] If the post’s createdAt property is more than 24 hours than the logged in user’s last post, a blurred photo is shown instead.
+- [ ] User receive notifcation when it is time to post
+- [ ] Users can make comments and view comments in posts    
 
 The following **additional** features are implemented:
 
@@ -32,19 +29,22 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/benwoosley/bereal-clone/blob/main/demo.gif' title='oVideo Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-
+<!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
+<!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-I ran into a glitch in storyboards during my segue to the post view. The background was displaying as transparent, and it made the animation appear incorrect. This was an easy fix by changing the background of the view from "Default" to "Black." I'm still unsure why this happened. 
+Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2023] [Benjamin Woosley]
+    Copyright [yyyy] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

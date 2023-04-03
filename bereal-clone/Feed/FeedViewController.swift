@@ -39,7 +39,6 @@ class FeedViewController: UIViewController {
         
         // Set the height of the header view
         tableView.tableHeaderView?.frame.size.height = 50
-
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -89,6 +88,20 @@ class FeedViewController: UIViewController {
         let alertController = UIAlertController(title: "Log out of your account?", message: nil, preferredStyle: .alert)
         let logOutAction = UIAlertAction(title: "Log out", style: .destructive) { _ in
             NotificationCenter.default.post(name: Notification.Name("logout"), object: nil)
+            
+            // MARK: unsub notifs
+            // Get the shared instance of the notification center
+            let center = UNUserNotificationCenter.current()
+
+            // Remove all pending notification requests
+            center.removeAllPendingNotificationRequests()
+
+            // Remove all delivered notifications from notification center
+            center.removeAllDeliveredNotifications()
+
+            // Unregister for all remote notifications
+            UIApplication.shared.unregisterForRemoteNotifications()
+
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
         alertController.addAction(logOutAction)
