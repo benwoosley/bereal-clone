@@ -230,14 +230,41 @@
                                                             </subviews>
                                                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </stackView>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oMq-GI-sGz">
+                                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xur-gg-wd9">
                                                             <rect key="frame" x="0.0" y="50" width="329" height="329"/>
-                                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="UGd-XT-73H">
+                                                                <rect key="frame" x="0.0" y="0.0" width="329" height="329"/>
+                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                                <subviews>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oMq-GI-sGz">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="329" height="329"/>
+                                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    </imageView>
+                                                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZf-XF-DnE" userLabel="Blur View">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="329" height="329"/>
+                                                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="jXf-3X-i2n">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="329" height="329"/>
+                                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                                        </view>
+                                                                        <blurEffect style="regular"/>
+                                                                    </visualEffectView>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="trailing" secondItem="oMq-GI-sGz" secondAttribute="trailing" id="7ix-NL-fdD"/>
+                                                                    <constraint firstItem="oMq-GI-sGz" firstAttribute="leading" secondItem="UGd-XT-73H" secondAttribute="leading" id="Krm-4r-J41"/>
+                                                                    <constraint firstItem="oMq-GI-sGz" firstAttribute="top" secondItem="UGd-XT-73H" secondAttribute="top" id="Mbm-oI-F6U"/>
+                                                                    <constraint firstItem="aZf-XF-DnE" firstAttribute="leading" secondItem="UGd-XT-73H" secondAttribute="leading" id="U1E-H7-9ZT"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="aZf-XF-DnE" secondAttribute="trailing" id="bb2-XL-z4c"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="oMq-GI-sGz" secondAttribute="bottom" id="gnc-uN-L7k"/>
+                                                                    <constraint firstItem="aZf-XF-DnE" firstAttribute="top" secondItem="UGd-XT-73H" secondAttribute="top" id="mP4-sE-YLC"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="aZf-XF-DnE" secondAttribute="bottom" id="ouJ-2o-neT"/>
+                                                                </constraints>
+                                                            </view>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="329" id="1EH-u7-6Ch"/>
-                                                                <constraint firstAttribute="width" secondItem="oMq-GI-sGz" secondAttribute="height" multiplier="1:1" id="Puh-bM-nhr"/>
+                                                                <constraint firstAttribute="width" secondItem="Xur-gg-wd9" secondAttribute="height" multiplier="1:1" id="Weh-Mh-fmJ"/>
                                                             </constraints>
-                                                        </imageView>
+                                                            <blurEffect style="regular"/>
+                                                        </visualEffectView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7n-0H-zd6">
                                                             <rect key="frame" x="0.0" y="390" width="329" height="22"/>
                                                             <constraints>
@@ -269,6 +296,7 @@
                                             <constraint firstAttribute="bottom" secondItem="9jz-0z-eo5" secondAttribute="bottom" constant="8" id="QMP-Tb-KFZ"/>
                                         </constraints>
                                         <connections>
+                                            <outlet property="blurView" destination="aZf-XF-DnE" id="MDi-gz-zee"/>
                                             <outlet property="captionLabel" destination="k7n-0H-zd6" id="R5k-RU-6tr"/>
                                             <outlet property="dateLabel" destination="VA8-g7-k87" id="KQy-Rn-o6P"/>
                                             <outlet property="locationLabel" destination="kcc-gW-IW1" id="iGN-c5-bc8"/>
