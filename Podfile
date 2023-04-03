@@ -11,5 +11,4 @@ target 'bereal-clone' do
   pod 'ParseSwift'
   pod 'Alamofire'
   pod 'AlamofireImage'
-  pod 'UIImageView-Letters'
 end

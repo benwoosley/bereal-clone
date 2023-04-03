@@ -8,7 +8,7 @@
 import UIKit
 import Alamofire
 import AlamofireImage
-import UIImageView_Letters
+
 
 class PostCell: UITableViewCell {
 
@@ -30,7 +30,7 @@ class PostCell: UITableViewCell {
         // Username and profile image
         if let user = post.user {
             usernameLabel.text = user.username
-            profileImageView.setImageWith(user.username, color: UIColor.gray, circular: true)
+            profileImageView.setImage(string: user.username, color: UIColor.gray, circular: true)
         }
         
         // Image
