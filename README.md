@@ -18,7 +18,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [x] If the post’s createdAt property is more than 24 hours than the logged in user’s last post, a blurred photo is shown instead.
-- [ ] User receive notifcation when it is time to post
+- [x] User receive notifcation when it is time to post
 - [ ] Users can make comments and view comments in posts    
 
 The following **additional** features are implemented:
@@ -29,22 +29,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/benwoosley/bereal-clone/blob/6cd58c526bf4c8625fb6c44fee6ba1b97fef639a/demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
-<!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Getting notifications to behave as intended was an initial challenge.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Benjamin Woosley]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
