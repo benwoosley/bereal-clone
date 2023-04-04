@@ -2,9 +2,9 @@
 
 Submitted by: **Benjamin Woosley**
 
-**BeReal Clone** is an app that introduces ... [TODO]
+**BeReal Clone** is an app that introduces daily posts to share with your friends!
 
-Time spent: **3** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
