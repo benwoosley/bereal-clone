@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         content.body = "Reminder to upload today's photo!"
         content.sound = UNNotificationSound.default
 
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60, repeats: false)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60, repeats: true)
 
         let request = UNNotificationRequest(identifier: "myNotification", content: content, trigger: trigger)
 
