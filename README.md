@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/benwoosley/bereal-clone/blob/6cd58c526bf4c8625fb6c44fee6ba1b97fef639a/demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/benwoosley/bereal-clone/blob/main/demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ...  
 [Kap](https://getkap.co/) for macOS
